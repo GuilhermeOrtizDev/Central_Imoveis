@@ -1,0 +1,35 @@
+.bg-primary{
+    background-color: #121465 !important;
+}
+
+.bg-secondary{
+    background-color: #C60000 !important;
+}
+
+.header_line{
+    height: 8px !important;
+}
+
+.header_menu, .header_menu > div {
+    height: 50px;
+}
+
+.header_menu a{
+    color: #C60000;
+}
+
+.header_content{
+    background-image: url(/_images/banner.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc( 100vh - 58px );
+    width: 100vw;
+}
+
+/*.header-banner img{
+    height: calc( 100vh - 58px );
+    width: 100vw;
+    object-fit: cover;
+    object-position: bottom;
+}*/
