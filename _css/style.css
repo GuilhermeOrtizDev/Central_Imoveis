@@ -1,3 +1,11 @@
+.text-primary{
+    color: #121465 !important;
+}
+
+.text-secondary{
+    color: #C60000 !important
+}
+
 .bg-primary{
     background-color: #121465 !important;
 }
