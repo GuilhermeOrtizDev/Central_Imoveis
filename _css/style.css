@@ -6,6 +6,18 @@
     background-color: #C60000 !important;
 }
 
+.btn-spotlight{
+    background-color: #121465;
+    color: white;
+    font-weight: bold;
+    border-color: #C60000;
+}
+
+.select-spotlight{
+    border-color: #121465 !important;
+    color: rgba(18, 20, 101, .5) !important;
+}
+
 .header_line{
     height: 8px !important;
 }
@@ -19,7 +31,7 @@
 }
 
 .header_content{
-    background-image: url(/_images/banner.jpg);
+    background-image: url(../_images/banner.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,9 +39,31 @@
     width: 100vw;
 }
 
-/*.header-banner img{
-    height: calc( 100vh - 58px );
-    width: 100vw;
-    object-fit: cover;
-    object-position: bottom;
-}*/
+.header_content > div >div > form{
+    transform: translateY(10px);
+}
+
+.filter_immovable > .filter_goal label{
+    border-radius: 12px 12px 0 0;
+    background-color: #121465;
+    color: white;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+.filter_immovable > .filter_goal label.active{
+    background-color: white;
+    color: #C60000;
+}
+
+.filter_immovable > .filter_specific{
+    width: 800px;
+    padding: 30px;
+    border-radius: 12px 0 12px 12px;
+}
+
+.header_content .alt{
+    width: 790px;
+    padding: 30px 20px 20px;
+    border-radius: 0 0 12px 12px;
+}
