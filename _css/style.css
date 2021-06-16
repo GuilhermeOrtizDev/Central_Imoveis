@@ -1,3 +1,36 @@
+@font-face {
+   font-family: 'Baloo';
+   src: local(Baloo), url(../_fonts/Baloo2-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Baloo';
+    src: local(Baloo), url(../_fonts/Baloo2-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Baloo';
+    src: local(Baloo), url(../_fonts/Baloo2-ExtraBold.ttf);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'Baloo';
+    src: local(Baloo), url(../_fonts/Baloo2-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Baloo';
+    src: local(Baloo), url(../_fonts/Baloo2-SemiBold.ttf);
+    font-weight: 800;
+}
+
+.font-baloo {
+    font-family: 'Baloo';
+}
+
 .bg-primary{
     background-color: #121465 !important;
 }
@@ -11,6 +44,14 @@
     color: white;
     font-weight: bold;
     border-color: #C60000;
+}
+
+.text-primary{
+    color: #121465 !important;
+}
+
+.text-small{
+    font-size: .7rem;
 }
 
 .select-spotlight{

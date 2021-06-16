@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="_css/style.css">
 </head>
 <body>
-    
     <header>
         <div class="header_line container-fluid bg-primary"></div>
         <div class="header_menu bg-white">
@@ -72,7 +71,7 @@
             </div>
         </div> 
     </header>
-    <section class="body">
+    <main class="main">
         <section class="spotlight">
             <div class="spotlight_title conatainer-flid bg-secondary p-3">
                 <h3 class="text-white text-center font-weight-bold m-0">
@@ -80,7 +79,7 @@
                 </h3>
             </div>
             <div class="spotlight_content">
-                <section class="container mt-4 mb-4">
+                <div class="container mt-4 mb-4">
                     <div class="row">
                         <div class="col-1 d-flex align-items-center">
                             <i class="fas fa-chevron-left fa-3x"></i>
@@ -147,17 +146,17 @@
                             <i class="fas fa-chevron-right fa-3x"></i>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
         </section>
-        <section class="mt-4 mb-4">
+        <section class="mt-5">
             <div class="bg-secondary shadow">
                 <div class="container">
                     <div class="row">
                         <div class="col-4">
                             <div class="bg-white p-5">
                                 <form action="">
-                                    <h3 class="text-primary font-weight-bold text-center mb-4">Anuncie seu Imóvel</h3>
+                                    <h3 class="text-primary font-weight-bold font-baloo text-center mb-4">Anuncie seu Imóvel</h3>
                                     <div class="form-group"> 
                                         <input type="text" class="form-control" placeholder="Nome">
                                     </div>
@@ -168,21 +167,21 @@
                                         <input type="tel" class="form-control" placeholder="Telefone">
                                     </div>
                                     <div>
-                                        <p>
+                                        <p class="text-small">
                                             Ao prencheer e enviar seus dados voce 
                                             esta confirmando que podemos entrar 
                                             em contato.
                                         </p>
                                     </div>
                                     <div class="form-group">
-                                        <button class="btn btn-spotlight form-control">Buscar</button>
+                                        <button class="btn btn-spotlight form-control">Enviar</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
                         <div class="col-8">
                             <div class="d-flex align-items-center h-100 p-4">
-                                <p class="h2 text-white font-weight-bold">
+                                <p class="h2 text-white font-weight-bold font-baloo">
                                     Rápido e fácil.<br>Anunciar imóvel em uma imobiliária como a Central  Imovéis significa evitar dores de cabeça.
                                 </p>
                             </div>
@@ -191,9 +190,22 @@
                 </div>
             </div>
         </section>
-    </section>
+    </main>
 
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="bg-primary">
+      <div class="container d-flex align-items-center p-3">
+        <div class="row w-100 m-0">
+          <div class="col-sm-8">
+            <p class="h6 text-white">Copyright ©️ 2020 Central Imoveis, todos os direitos reservados. CRECI nº J-0573</p>
+          </div>
+          <div class="col-sm-4">  
+            <p class="h6 text-white">Desenvolvido por <a href="https://api.whatsapp.com/send?phone=554288860522">Guilherme Ortiz</a></p>
+          </div>
+        </div>
+      </div>
+  </footer>
+  
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
